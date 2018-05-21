@@ -19,7 +19,6 @@ tags:
 4. `数据报文简单`：UDP只在应用程序提交的报文总添加首部就直接交给IP层，UDP首部只有8个字节，IP层收到UDP报文就直接拆分根据UDP首部的目的端口发送数据
 
 ##  UDP数据报文格式       
-![ReactiveCocoa进阶思维导图](https://ww3.sinaimg.cn/large/006y8lVagw1fbgye3re5xj30je0iomz8.jpg)
 
 ![UDP数据报文格式](https://img-blog.csdn.net/20160313152631284)  
 
