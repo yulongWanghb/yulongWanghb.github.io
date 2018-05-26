@@ -85,7 +85,7 @@ tags:
 5. 传输效率高，实现一对多、多对多等模式
 
 #### UDP报文格式
-![UDP报文格式]()  
+![UDP报文格式](https://github.com/yulongWanghb/yulongwanghb.github.io/raw/master/img/UDP%E6%8A%A5%E6%96%87%E6%A0%BC%E5%BC%8F.png)  
 
 UDP和TCP一样采用端口号来确定应用进程，但UDP的首部里只有8个字节  
 UDP长度字段：整个UDP数据报长度（最小为8字节）  
@@ -113,7 +113,7 @@ UDP长度字段：整个UDP数据报长度（最小为8字节）
 2. 报文不传输用户数据，在IP主机、路由器之间传递控制信息，报告数据包无法传输的错误  
 
 #### 报文格式
-![ICMP 报文格式]()  
+![ICMP 报文格式](https://github.com/yulongWanghb/yulongwanghb.github.io/raw/master/img/ICMP%E6%8A%A5%E6%96%87%E6%A0%BC%E5%BC%8F.jpeg)  
 类型和代码：标示错误类型
 校验和：校验报文在传输中是否发生了错误
 标示：用于标示本ICMP进程，仅用于回显请求和应答ICMP报文
@@ -125,6 +125,6 @@ UDP长度字段：整个UDP数据报长度（最小为8字节）
 3. 只限制在局域网中使用
 
 #### 工作流程
-![ARP工作流程]()  
+![ARP工作流程](https://github.com/yulongWanghb/yulongwanghb.github.io/raw/master/img/ARP%20%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B.jpg)  
 
 图中如果目的主机没有在本地网络上，如果设置了路由转发，该数据报文将会被转发出去，如果没有设置的话，该报文会被丢弃
