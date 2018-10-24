@@ -1,0 +1,16 @@
+---
+layout:     post
+title:      android studio 下使用cmake
+subtitle:   HttpDNS
+date:       2018.9.13
+author:     WYL
+catalog: true
+tags:
+    - cmake
+---
+
+####编译错误    
+
+ requires unsupported dynamic reloc R_ARM_REL32; recompile with -fPIC
+
+ 修改方法：build.gradle 中的cmake修改-DANDROID_TOOLCHAIN=gcc  不为clang
